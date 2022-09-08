@@ -1,8 +1,8 @@
 ---
 home: true
 heroImage: null
-heroText: BMC Developer Center
-tagline: Build on Bytom Blockchain like never before
+heroText: Bystack Documents
+tagline: One-step Blockchain service platform
 lastUpdate: Last update
 viewMore: View More
 features:

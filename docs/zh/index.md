@@ -1,8 +1,8 @@
 ---
 home: true
 heroImage: null
-heroText: BMC开发者中心
-tagline: 绝无仅有的区块链开发体验，低延迟，低门槛，快来搭建你的第一个Dapp
+heroText: Bystack 文档中心
+tagline: 区块链一站式服务平台
 lastUpdate: 最近更新
 viewMore: 查看更多
 features:
