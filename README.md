@@ -1,2 +1,3 @@
-# bmc-docs
-developer documents for BMC
+# bystack-docs
+
+developer documents for bystack
