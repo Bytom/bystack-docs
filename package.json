@@ -1,0 +1,22 @@
+{
+  "name": "developer.bytom.io",
+  "version": "1.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "keywords": [],
+  "author": "martinbtm <zhonglf@bytom.io>",
+  "license": "ISC",
+  "dependencies": {
+    "markdown-it-katex": "^2.0.3",
+    "vuepress": "^1.8.2"
+  },
+  "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.8.2",
+    "vuepress-plugin-right-anchor": "^0.1.7"
+  },
+  "repository": "https://github.com/Bytom/documentation_v2.git"
+}
