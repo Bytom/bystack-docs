@@ -8,7 +8,7 @@ const zh = [
     ]
   },
   {
-    title: '基础概念',
+    title: '技术架构',
     children: [
     ]
   },
@@ -32,7 +32,7 @@ const en = [
     ]
   },
   {
-    title: 'Concept',
+    title: 'Technology',
     children: [
     ]
   },
