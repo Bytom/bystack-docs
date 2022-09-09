@@ -4,7 +4,7 @@ const zh = [
     title: '快速入门',
     children: [
       { title: '简介', link: '/zh/guide/01_introduction.html' },
-      { title: '主网快速入门', link: '/zh/guide/01_mainnet_quick_start.html' }
+      { title: '快速入门', link: '/zh/guide/01_quick_start.html' }
     ]
   },
   {
@@ -28,7 +28,7 @@ const en = [
       title: 'Getting Started',
       children: [
       { title: 'Introduction', link: '/guide/01_introduction.html' },
-      { title: 'Mainnet Quick Start', link: '/guide/01_mainnet_quick_start.html' }
+      { title: 'Quick Start', link: '/guide/01_quick_start.html' }
     ]
   },
   {
