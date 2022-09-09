@@ -42,7 +42,7 @@ module.exports = {
         nav: require('./nav/en'),
         sidebar: {
           '/api/': getApiSidebar(),
-          '/guide/': getGuideSidebar('Getting Started','Bystack Gateway','API','Concept')
+          '/guide/': getGuideSidebar('Getting Started','Technology','API','Usecase')
         },
       },
       '/zh/': {
@@ -57,7 +57,7 @@ module.exports = {
         nav: require('./nav/zh'),
         sidebar: {
           '/zh/api/': getApiSidebar(),
-          '/zh/guide/': getGuideSidebar('快速入门','Bystack Gateway','API指南','基础概念'),
+          '/zh/guide/': getGuideSidebar('快速入门','技术架构','API指南','案例介绍'),
         }
       }
     },
