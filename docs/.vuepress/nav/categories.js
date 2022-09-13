@@ -4,7 +4,8 @@ const zh = [
     title: '快速入门',
     children: [
       { title: '简介', link: '/zh/guide/01_introduction.html' },
-      { title: '快速入门', link: '/zh/guide/01_quick_start.html' }
+      { title: '快速入门', link: '/zh/guide/01_quick_start.html' },
+      { title: '联系我们', link: '/zh/guide/01_contact_us.html' }
     ]
   },
   {
@@ -28,7 +29,8 @@ const en = [
       title: 'Getting Started',
       children: [
       { title: 'Introduction', link: '/guide/01_introduction.html' },
-      { title: 'Quick Start', link: '/guide/01_quick_start.html' }
+      { title: 'Quick Start', link: '/guide/01_quick_start.html' },
+      { title: 'Contact us', link: '/guide/01_contact_us.html' }
     ]
   },
   {

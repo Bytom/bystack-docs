@@ -128,7 +128,8 @@ function getGuideSidebar (groupA,groupB,groupC,groupD) {
       collapsable: true,
       children: [
             '01_introduction',
-            '01_quick_start'
+            '01_quick_start',
+            '01_contact_us',
       ]
     },
     {
