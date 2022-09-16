@@ -136,6 +136,10 @@ function getGuideSidebar (groupA,groupB,groupC,groupD) {
       title: groupB,
       collapsable: true,
       children: [
+            '02_overview',
+            '02_chain',
+            '02_smart_contract',
+            '02_gateway'
       ]
     },
     {

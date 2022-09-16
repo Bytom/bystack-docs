@@ -11,6 +11,10 @@ const zh = [
   {
     title: '技术架构',
     children: [
+      { title: '技术概述', link: '/zh/guide/02_overview.html' },
+      { title: 'Bystack链介绍', link: '/zh/guide/02_chain.html' },
+      { title: '智能合约', link: '/zh/guide/02_smart_contract.html' },
+      { title: 'Bystack网关', link: '/zh/guide/02_gateway.html' }
     ]
   },
   {
@@ -36,6 +40,10 @@ const en = [
   {
     title: 'Technology',
     children: [
+      { title: 'Overview', link: '/guide/02_overview.html' },
+      { title: 'Bystack Chain', link: '/guide/02_chain.html' },
+      { title: 'Smart Contract', link: '/guide/02_smart_contract.html' },
+      { title: 'Bystack Gateway', link: '/guide/02_gateway.html' }
     ]
   },
   {
