@@ -2,16 +2,14 @@
   <header :class="{ navbar: true, fixedNavbar: $page.title !== 'Home' }">
     <div class="header-container">
       <SidebarButton @toggle-sidebar="$emit('toggle-sidebar')" />
-      <a 
-        href="https://bytom.io"
-        class="home-link"
-      >
+      <a href="https://www.bystack.com/" class="home-link">
         <span
           v-if="$siteTitle"
           ref="siteName"
           class="site-name"
           :class="{ 'can-hide': $site.themeConfig.logo }"
-          >{{ $siteTitle }}</span>
+          >{{ $siteTitle }}</span
+        >
       </a>
 
       <div
@@ -133,7 +131,7 @@ $navbar-height = 80px;
 
   .home-link {
     background: url('/images/logo_light.png') 0 0 / 130px no-repeat;
-    margin: 24px 0 0 0;
+    margin: 30px 0 0 0;
     .site-name {
       display: inline-block;
       width: 136px;
