@@ -17,24 +17,9 @@ footer:
     website: 网站
     contact: 联系我们
   links:
-    - title: 链接
-      list:
-        - title: 钱包
-          href: https://blockmeta.com/wallet/
-        - title: 浏览器
-          href: http://blockmeta.com/
-        - title: Bytom 1.0 >
-          href: https://classic.bytom.io
-    - title: 开发者
-      list:
-        - title: GitHub
-          href: https://github.com/Bytom/bytom
-        - title: 文档
-          href: https://developer.bymov.io/
-    - title: 关于我们
-      list:
-        - title: 白皮书
-          href: https://cdn.bytom.io/res/WhitePaper-Bytom%202.0-cn.pdf
+    - title:
+    - title:
+    - title:
 
   copyRight: Copyright ©2022 bystack.com
 pageClass: by-home
