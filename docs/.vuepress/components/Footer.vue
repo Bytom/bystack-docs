@@ -22,7 +22,7 @@
         <div class="list" v-if="data.footer && data.footer.contact">
           <h2>{{ data.footer.contact.contact }}</h2>
           <ul>
-            <li>
+            <!-- <li>
               <a
                 target="_blank"
                 :href="'mailto:contact@bytom.io' || '/'"
@@ -30,14 +30,14 @@
               >
                 E-Mail: contact@bytom.io
               </a>
-            </li>
+            </li> -->
             <li>
               <a
                 target="_blank"
-                :href="'https://bytom.io' || '/'"
+                :href="'https://www.bystack.com' || '/'"
                 rel="noreferrer"
               >
-                {{ data.footer.contact.website }}: bytom.io
+                {{ data.footer.contact.website }}: www.bystack.com
               </a>
             </li>
             <li class="follows">
@@ -45,49 +45,9 @@
                 <li>
                   <a
                     target="_blank"
-                    href="https://twitter.com/Bytom_Official"
-                    rel="noreferrer"
-                    ><i class="iconfont twitter"></i
-                  ></a>
-                </li>
-                <li>
-                  <a
-                    target="_blank"
-                    href="https://weibo.com/u/5966947038?refer_flag=1001030101_"
+                    href="https://weibo.com/u/7785033809?refer_flag=1001030101_"
                     rel="noreferrer"
                     ><i class="iconfont weibo"></i
-                  ></a>
-                </li>
-                <li>
-                  <a
-                    target="_blank"
-                    href="https://www.chainnode.com/forum/143"
-                    rel="noreferrer"
-                    ><i class="iconfont chainnode"></i
-                  ></a>
-                </li>
-                <li>
-                  <a
-                    target="_blank"
-                    href="https://www.facebook.com/bytomofficial/"
-                    rel="noreferrer"
-                    ><i class="iconfont facebook"></i
-                  ></a>
-                </li>
-                <li>
-                  <a
-                    target="_blank"
-                    href="https://discord.gg/U3RSYr5"
-                    rel="noreferrer"
-                    ><i class="iconfont discord"></i
-                  ></a>
-                </li>
-                <li>
-                  <a
-                    target="_blank"
-                    href="https://t.me/BytomInternational"
-                    rel="noreferrer"
-                    ><i class="iconfont telegram"></i
                   ></a>
                 </li>
               </ul>
