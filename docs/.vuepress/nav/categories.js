@@ -20,6 +20,7 @@ const zh = [
   {
     title: 'API指南',
     children: [
+      { title: '网关API', link: '/zh/guide/03_gateway_api.html' }
     ]
   },
   {
@@ -49,6 +50,7 @@ const en = [
   {
     title: 'API',
     children: [
+      { title: 'Gateway API', link: '/guide/03_gateway_api.html' }
     ]
   },
   {

@@ -1,12 +1,12 @@
-# 快速入门
+# Quick Start
 
-## HTTP请求说明
+## HTTP Request Format
 
 ### Base URL
 
 https://www.bystack.com/api/v1
 
-### HTTP通用返回格式说明
+### HTTP Return Format
 
 ```
 {
@@ -16,30 +16,31 @@ https://www.bystack.com/api/v1
 }
 ```
 
-|  参数   | 类型  | 说明 |
+|  Parameter  | Type  | description|
 |  ----  | ----  | ----  |
-| code  | int | 状态码 |
-| message  | string | 状态信息 |
-| data  | json object | 具体接口返回数据 |
+| code  | int | Status Code |
+| message  | string | Status information |
+| data  | json object | the return data |
 
 
-## 接入流程
+## Access process
 
 ![](../img/01/quick_start.png)
 
-### 1、申请接入
+### 1、Apply for access
 
-请联系：miuzy@8btc. com进行申请
+refer to Contract us 
 
-### 2、审核
+### 2、Verify
 
-申请后，将审核相关的信息
+after application，verify the information of applicant
 
-### 3、生成Access Token
+### 3、Create Access Token
 
-审核通过后，可以生成Access Token，并赠送一定的Gas费用进行测试
 
-每次调用API时，需将access token放在header中
+After passing the verify, an Access Token can be generated and a certain Gas fee will be given for testing
+
+Every time you call the API, you need to put the access token in the HTTP header
 
 ```
 {
@@ -47,23 +48,23 @@ https://www.bystack.com/api/v1
 }
 ```
 
-### 4、创建平台用户
+### 4、Create the platform user
 
-调用/create-account接口, 创建平台用户，返回账户地址
+call ``/create-account``, create the platform user, return the user account and address
 
-**请求URL**
+**Request URL**
 
 ```
 POST /create-account
 ```
 
-**请求参数**
+**Request Parameter**
 
-|  参数   | 类型  | 说明 | 是否必填 |
+|  Parameter  | Type  | description| optional |
 |  ----  | ----  | ----  | ----  |
-| user_id  | uint64 | user_id跟bystack账户对应。一般为你们平台上的用户名（唯一） | 是 |
+| user_id  | uint64 | the user name of your platform | no |
 
-**返回值**
+**Return**
 
 ```
 {
@@ -75,26 +76,26 @@ POST /create-account
 }
 ```
 
-### 5、发行资产
+### 5、Issue Assets
 
-为指定用户发行资产，资产发行到指定用户地址上
+Issue assets for designated users, and distribute assets to designated user addresses
 
-**请求URL**
+**Request URL**
 
 ```
 POST /create-asset
 ```
 
-**请求参数**
+**Request Parameter**
 
-|  参数   | 类型  | 说明 | 是否必填 |
+|  Parameter  | Type  | description| optional |
 |  ----  | ----  | ----  | ----  |
-| address  | string | 资产发行到该地址 | 是 |
-| name  | string | 资产名称 | 是 |
-| symbol  | string | 资产符号，一般为name的首字符缩写 | 是 |
-| description  | string | 资产描述 | 否 |
+| address  | string | the assets owner | no |
+| name  | string | assets name | no |
+| symbol  | string | assets symbol,the abbreviation for assets name | no |
+| description  | string | assets description | yes |
 
-**返回值**
+**Return**
 
 ```
 {

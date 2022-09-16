@@ -1,42 +1,42 @@
-# Bystack介绍
+# Bystack Introduction
 
-## 什么是Bystack？
+## What is Bystack？
 
-Bystack是区块链一站式BaaS服务平台，为企业提供专业、优质的区块链技术解决方案，快速构建和实现数据区块链化
+Bystack is a one-stop BaaS(Blockchain as a Service) platform, providing enterprises with professional and high-quality blockchain technology solutions, quickly building and making data to blockchain
 
-## 主要特点
+## Features
 
-### 高效稳定
+### Efficient and stable
 
-高效运行规模化区块链应用，保障区块链系统的安全和稳定
+blockchain applications can run Efficiently and ensure the security and stability of the blockchain system
 
-### 快速接入
+### Quick access
 
-面向不同规模的企业和机构，提供一站式的区块链解决方案，以及高效易用的区块链服务和配套开发工具
+For different enterprises and institutions, we provide one-stop blockchain solutions, as well as efficient and easy-to-use blockchain services and development tools
 
-### 场景应用
+### Scenario application
 
-适用广泛的应用场景，提供丰富的可插拔服务，以及完整的应用生态，支持一键发布区块链应用
+Applicable to a wide range of application scenarios, providing rich pluggable services, as well as a complete application ecosystem, supporting one-click publishing of blockchain applications
 
-### 生态完善
+### Ecological perfection
 
-提供完善的开发工具、数据服务，结合移动端和桌面端的多语言解决方案构建了完善的区块链生态
+Provide complete development tools, data services, and build a complete blockchain ecosystem with multi-language solutions on mobile and desktop
 
-## Bystack优势
+## Advantages
 
-### 安全可靠
+### Security
 
-Bystack底层采用安全可靠的加密和签名算法，同时支持国密，共识层采用BBFT，确保链低延时和高可靠性
+Bystack chain adopts safe and reliable encryption and signature algorithms, and supports SM1-SM4. The consensus layer adopts BBFT to ensure low latency and high reliability.
 
-### 成本低廉
+### Low cost
 
-Bystack使用按只需要支付少量Gas费用，并且按需付费，大大节约了用户的成本
+Bystack only needs to pay a small gas fee , which greatly saves the cost for users
 
-### 接入简单
+### Easy access
 
-Bystack提供了Bystack Gateway，用户无需了解区块链知识，即可将业务接入区块链，获得区块链赋能
+Bystack provides Bystack Gateway, users do not need to know blockchain knowledge, they can easily connect their business to blockchain
 
-### 合规认证
+### Compliance Certification
 
-Bystack通过工信部电子标准院区块链功能测试认证
+Bystack passed the blockchain functional test certification of the Ministry of Industry and Information Technology Institute of Electronic Standards
 
