@@ -81,17 +81,18 @@ module.exports = {
 
   locales: {
     "/": {
-      label: "English",
-      lang: "en-US",
-      title: "Developer Center - BYSTACK",
-      description: "BYSTACK Documentation Center",
-    },
-    "/zh/": {
-      label: "简体中文",
       lang: "zh-CN",
-      title: "文档中心-Bystack",
-      description: "Bystack 文档中心",
+      // label: "English",
+      // lang: "en-US",
+      // title: "Developer Center - BYSTACK",
+      // description: "BYSTACK Documentation Center",
     },
+    // "/zh/": {
+    //   label: "简体中文",
+    //   lang: "zh-CN",
+    //   title: "文档中心-Bystack",
+    //   description: "Bystack 文档中心",
+    // },
   },
 
   configureWebpack: {
