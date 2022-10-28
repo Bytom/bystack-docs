@@ -145,7 +145,7 @@ function getGuideSidebar(groupA, groupB, groupC, groupD) {
     {
       title: groupD,
       collapsable: true,
-      children: [],
+      children: ["04_case_wujiebantu","04_case_copyright","04_case_bystack"],
     },
   ];
 }

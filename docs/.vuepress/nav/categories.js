@@ -26,6 +26,9 @@ const zh = [
   {
     title: '案例介绍',
     children: [
+      { title: 'Bystack助力无界版图', link: '/zh/guide/04_case_wujiebantu.html' },
+      { title: 'Bystack助力版权', link: '/zh/guide/04_case_copyright.html' },
+      { title: '什么是Bystack链', link: '/zh/guide/04_case_bystack.html' }
     ]
   }
 ];
