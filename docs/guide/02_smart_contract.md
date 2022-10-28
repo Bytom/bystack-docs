@@ -1,4 +1,4 @@
-# 智能合约
+# Smart Contract
 
 BMC兼容EVM虚拟机，可以用Solidity语言来写BMC合约，如下是一个简单的合约入门
 

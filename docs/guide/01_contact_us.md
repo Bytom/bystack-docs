@@ -1,7 +1,5 @@
-# 联系我们
+# Contact Us
 
-微信公众号：Bystack百思科
+Weibo：@超节点Bystack
 
-微博：@超节点Bystack
-
-微信：XY-1167
+Wechat：XY-1167

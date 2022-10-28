@@ -1,34 +1,41 @@
-# Bystack链介绍
+# Bystack Chain
 
-## 设计目标
+## Design goals
 
+- Wait for a few blocks to confirm, no fork in most cases.
+- 5 seconds or less block time
+- better compatible
+- support more cryptographic signature algorithm(like SM1 - SM4)
 
-- 较少的区块确认数达到最终状态，且大部分情况下不分叉
-- 5s 或者更少的区块时间
-- 更好的兼容性
-- 支持国密等多种加密签名算法
+## Validator
 
-## 验证者
+Bystack chain relies on a set of validators who are responsible for committing new blocks in the blockchain. These validators participate in the consensus protocol by signing blocks that contain cryptographic signatures signed by each validator's private key. 
 
-Bystack链依赖于一组负责在区块链中提交新区块的验证者，这些验证者通过签署包含由每个验证者的私钥签署的加密签名的块来参与共识协议。验证人集由质押模块确定。验证者的奖励来自委托的交易费。
+## Block
 
-## 区块
+Each block contain 1M Byte data at maximum,contain thousands of transactions, and generate a block in 5s or less
 
-每个区块最大可容纳1M字节，可以包含最多数千笔交易，5s或者更少时间产生一个区块
+## Account and Address
 
-## 账户和地址
+Bystack use a similar way to generate keys as Bitcoin, i.e. use 256 bits entropy to generate a 24-word mnemonic based on BIP39, and then use the mnemonic and an empty passphrase to generate a seed; finally use the seed to generate a master key, and derive the private key using BIP32/BIP44 with HD prefix as "44'".
 
-Bystack使用与比特币类似的方式生成密钥，即使用 256 位熵生成基于BIP39的 24 字助记词，然后使用助记词和空密码生成种子；最后使用种子生成主密钥，使用 BIP32/BIP44 导出私钥，HD 前缀为"44'/"。
+### Key
 
-Bystack链使用secp256k1椭圆曲线。它的私钥是 32 字节，而公钥是 33 字节。
+Bystack uses the same elliptic curve cryptography as the current Bitcoin implementation, i.e. secp256k1. Its private key is 32 bytes while public key is 33 bytes.
 
-地址为 20 字节，可以表示为：
+### Address
+
+Addresses on Bystack are 20 bytes and may be expressed as:
 
 `Address = RIPEMD160(SHA256(compressed public key))`
 
-通常，地址以bech32格式编码，其中包括校验和和人类可读前缀 (HRP)。
+Typically, an address is encoded in the bech32 format which includes a checksum and human-readable prefix
 
-## 交易
+### Signature
+
+Bystack uses an ECDSA signature on curve secp256k1 against a SHA256 hash of the byte array of a JSON-encoded canonical representation of the transaction. 
+
+## Transaction
 
 交易指的是由账户发起的操作，即由人管理的账户，而不是合约。
 
@@ -38,4 +45,4 @@ Bystack链使用secp256k1椭圆曲线。它的私钥是 32 字节，而公钥是
 
 - 常规交易：从一个钱包到另一个钱包的交易。
 - 合约部署交易：没有“收件人”地址的交易，其中数据字段用于合约代码。
- 
+

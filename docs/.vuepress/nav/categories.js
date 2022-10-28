@@ -20,11 +20,15 @@ const zh = [
   {
     title: 'API指南',
     children: [
+      { title: '网关API', link: '/zh/guide/03_gateway_api.html' }
     ]
   },
   {
     title: '案例介绍',
     children: [
+      { title: 'Bystack助力无界版图', link: '/zh/guide/04_case_wujiebantu.html' },
+      { title: 'Bystack助力版权', link: '/zh/guide/04_case_copyright.html' },
+      { title: '什么是Bystack链', link: '/zh/guide/04_case_bystack.html' }
     ]
   }
 ];
@@ -49,6 +53,7 @@ const en = [
   {
     title: 'API',
     children: [
+      { title: 'Gateway API', link: '/guide/03_gateway_api.html' }
     ]
   },
   {
