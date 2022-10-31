@@ -81,18 +81,21 @@ module.exports = {
 
   locales: {
     "/": {
+      label: "简体中文",
       lang: "zh-CN",
+      title: "文档中心-Bystack",
+      description: "Bystack 文档中心",
       // label: "English",
       // lang: "en-US",
       // title: "Developer Center - BYSTACK",
       // description: "BYSTACK Documentation Center",
     },
-    // "/zh/": {
-    //   label: "简体中文",
-    //   lang: "zh-CN",
-    //   title: "文档中心-Bystack",
-    //   description: "Bystack 文档中心",
-    // },
+    "/zh/": {
+      label: "简体中文",
+      lang: "zh-CN",
+      title: "文档中心-Bystack",
+      description: "Bystack 文档中心",
+    },
   },
 
   configureWebpack: {
@@ -146,7 +149,7 @@ function getGuideSidebar(groupA, groupB, groupC, groupD) {
     {
       title: groupD,
       collapsable: true,
-      children: ["04_case_wujiebantu","04_case_copyright","04_case_bystack"],
+      children: ["04_case_wujiebantu", "04_case_copyright", "04_case_bystack"],
     },
   ];
 }
