@@ -2,7 +2,7 @@
   <div class="navs">
     <div v-for="(item, key) in list[$lang]" class="itemWrap">
       <div class="item">
-        <img class="item-img" :src="$withBase(listImgs[key])" >
+        <img class="item-img" :src="$withBase(listImgs[key])" />
         <h2>{{ item.title }}</h2>
         <ul>
           <li v-for="(link, linkKey) in item.children.slice(0, maxLen)">
@@ -24,14 +24,25 @@ export default {
   data() {
     return {
       list: categories,
-      listImgs: ['/images/nav/0.png', '/images/nav/1.png', '/images/nav/2.png', '/images/nav/3.png', '/images/nav/4.png', '/images/nav/5.png', '/images/nav/6.png', '/images/nav/7.png', '/images/nav/1.png', '/images/nav/1.png'],
+      listImgs: [
+        "/images/nav/0.png",
+        "/images/nav/1.png",
+        "/images/nav/2.png",
+        "/images/nav/3.png",
+        "/images/nav/4.png",
+        "/images/nav/5.png",
+        "/images/nav/6.png",
+        "/images/nav/7.png",
+        "/images/nav/1.png",
+        "/images/nav/1.png",
+      ],
       maxLen: 5,
     };
   },
   beforeMount() {
     // console.log(this.$site, categories[this.$lang])
   },
-  mounted: function () {},
+  mounted() {},
 };
 </script>
 

@@ -1,22 +1,21 @@
 ---
 home: true
 heroImage: null
-heroText: Bystack Documents
-tagline: One-step Blockchain service platform
-lastUpdate: Last update
-viewMore: View More
+heroText: Bystack 文档中心
+tagline: 区块链一站式服务平台
+lastUpdate: 最近更新
+viewMore: 查看更多
 features:
-  - title: Assets under control
-    details: All assets in MOV are  in users’ wallet. As long as the private key is kept securely, no one can steal your assets.
-  - title: Public and transparent
-    details: All transactions in MOV are recorded on the chain, public, transparent, and immutable.
-  - title: Transaction is trading
-    details: Transactions between users are trading in effect, easy to operate. Trading is ubiquitous and MOV is everywhere.
+  - title: 资产自管
+    details: MOV的资产都在用户钱包中，只要管理好私钥，任何人都无法挪用你的资产。
+  - title: 公开透明
+    details: MOV的成交记录都在链上，公开透明，不可篡改。
+  - title: 转账即交易
+    details: 用户转账即是交易，简单易操作，交易无所不有，MOV无处不在。
 footer:
   contact:
-    website: Website
-    contact: Contact
-
+    website: 网站
+    contact: 联系我们
   links:
     - title:
     - title:
